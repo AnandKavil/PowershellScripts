@@ -26,7 +26,7 @@ $Data = @();
 $MachineName = $null;
 $MachineTag = $null;
 $MachineId = $null;
-$Data = Import-Csv -Path C:\Users\anandp\Desktop\test_tag.csv
+$Data = Import-Csv -Path C:\Users\anandp\Desktop\test_tag.csv #provide your File Location 
 # Remove Tag as per the input file  
 $Data | foreach {
     $MachineName = $($_.Name);
